@@ -13,43 +13,60 @@ En este caso, la data corresponde a un archivo CSV con 79.157 filas, cada una co
 
  Dato 
  Descripción 
-M
-a
-p
+ 
+Map 
 Nombre  del Mapa donde se jugó la partida
- Team
- Nombre de equipo al que pertenece el jugador
- InternalTeamId
- Identificador del equipo al que pertenece el jugador.
- MatchId
- Identificador de la partida.
- RoundId
- Identificador de la ronda (los equipos se enfrentan en rondas de 5 partidas seguidas)
- MatchWinner
- Indica si el jugador ganó o no la partida.
- RoundWinner
- Indica si el jugador ganó o no la ronda analizada.
- Survived
- Indica si el jugador sobrevivió o no a la partida (sobrevivir no es sinónimo de ganar).
- AbnormalMatch
- Indica si la partida del jugador tuvo un error por conexión de red
- TimeAlive
- Indica el tiempo en segundos que el jugador estuvo vivo durante el juego
- TravelledDistance
- Distancia viajada por el jugador durante la partida.
- RLethalGrenadesThrown/RNonLethalGrenadesThrown
- Cantidad de granadas lanzadas, categorizadas en letales y no-letales.
- PrimaryXXXX
- Porcentaje de uso arma clasificada como primaria. Categorizada en AssaultRifle, SniperRifle, SMG, Heavy y Pistol.
- [Match|Round] Assists
- Cantidad de asistencias efectuadas por el jugador durante la partida o la ronda.
- [Match|Round] Kills
- Cantidad de kills efectuados por el jugador durante la partida o la ronda.
- [Match|Round] FlankKills
- Cantidad de kills efectuados por el jugador sin que la víctima lo viese durante la partida o la ronda.
- [Match|Round] HeadShots
- Cantidad de kills efectuados por el jugador a través de un tiro en la cabeza durante la partida o la ronda.
- RoundStartingEquipmentValue
- Valor del equipamiento llevado por el jugador al inicio de la ronda.
- TeamStartingEquipmentValue
- Valor promedio del equipamiento llevado por el equipo del jugador al inicio de la ronda.
+ 
+Team
+Nombre de equipo al que pertenece el jugador
+
+InternalTeamId
+Identificador del equipo al que pertenece el jugador.
+
+MatchId
+Identificador de la partida.
+
+RoundId
+Identificador de la ronda (los equipos se enfrentan en rondas de 5 partidas seguidas)
+
+MatchWinner
+Indica si el jugador ganó o no la partida.
+
+RoundWinner
+Indica si el jugador ganó o no la ronda analizada.
+
+Survived
+Indica si el jugador sobrevivió o no a la partida (sobrevivir no es sinónimo de ganar).
+
+AbnormalMatch
+Indica si la partida del jugador tuvo un error por conexión de red
+
+TimeAlive
+Indica el tiempo en segundos que el jugador estuvo vivo durante el juego
+
+TravelledDistance
+Distancia viajada por el jugador durante la partida.
+
+RLethalGrenadesThrown/RNonLethalGrenadesThrown
+Cantidad de granadas lanzadas, categorizadas en letales y no-letales.
+
+PrimaryXXXX
+Porcentaje de uso arma clasificada como primaria. Categorizada en AssaultRifle, SniperRifle, SMG, Heavy y Pistol.
+
+[Match|Round] Assists
+Cantidad de asistencias efectuadas por el jugador durante la partida o la ronda.
+
+[Match|Round] Kills
+Cantidad de kills efectuados por el jugador durante la partida o la ronda.
+
+[Match|Round] FlankKills
+Cantidad de kills efectuados por el jugador sin que la víctima lo viese durante la partida o la ronda.
+
+[Match|Round] HeadShots
+Cantidad de kills efectuados por el jugador a través de un tiro en la cabeza durante la partida o la ronda.
+
+RoundStartingEquipmentValue
+Valor del equipamiento llevado por el jugador al inicio de la ronda.
+
+TeamStartingEquipmentValue
+Valor promedio del equipamiento llevado por el equipo del jugador al inicio de la ronda.
