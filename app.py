@@ -7,9 +7,9 @@ import pandas as pd
 st.title('Predicción del Ganador de la Partida en CS:GO')
 
 # Cargar el modelo y los label encoders desde los archivos .pkl
-model_filename = '/Users/herna/Desktop/logistic_regression_model.pkl'
-label_encoder_map_filename = '/Users/herna/Desktop/label_encoder_map.pkl'
-label_encoder_team_filename = '/Users/herna/Desktop/label_encoder_team.pkl'
+model_filename = 'logistic_regression_model.pkl'
+label_encoder_map_filename = 'label_encoder_map.pkl'
+label_encoder_team_filename = 'label_encoder_team.pkl'
 
 with open(model_filename, 'rb') as file:
     model = pickle.load(file)
